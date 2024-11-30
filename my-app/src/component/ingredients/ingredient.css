@@ -1,6 +1,6 @@
 #ingredients {
-    margin: 0 auto;
-    height: 100vh;
+    margin: -1rem auto;
+    min-height: 100vh;
     width: 100vw;
     max-width: 90%;
     display: flex;
@@ -34,7 +34,7 @@
 .ingridentcontent1 p {
     font-size: 1rem;
     color:black;
-    line-height: 1.6;
+    
 }
 
 .ingridentcontent1 h2 {
@@ -47,7 +47,7 @@
 .ingridentcontent2 {
     display: grid;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: left;
     background-size: cover;
     background-position: center;
@@ -58,12 +58,14 @@
     height: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #101010;
+
 }
 
 .ingridentcontent2 h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    
 }
 
 .ingridentcontent2 p {
@@ -76,54 +78,52 @@
     cursor: pointer;
     font-weight: bold;
     color: #ffd700;
+    padding-top: 5rem;
 }
 
 
 
 
 .ingridentcontent2:nth-child(2) {
-    background-image: url('../assest/bn2-2.jpg.png');
+    background-image: url('../../assest/bn2-2.jpg.png');
 }
 
 .ingridentcontent2:nth-child(3) {
-    background-image: url('../assest/bn2-2.jpg.png');
+    background-image: url('../../assest/bn2-2.jpg.png');
 }
 
 .ingridentcontent2:nth-child(4) {
-    background-image: url('../assest/bn2-3.jpg.png');
+    background-image: url('../../assest/bn2-3.jpg.png');
 }
 
 .ingridentcontent2:nth-child(5) {
-    background-image: url('../assest/bn2-4.jpg.png');
+    background-image: url('../../assest/bn2-4.jpg.png');
 }
 .ingridentcontent2:nth-child(6) {
-    background-image: url('../assest/bn2-5.jpg.png');
+    background-image: url('../../assest/bn2-5.jpg.png');
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 620px) {
+    #ingredients {
+        padding: 2rem 1rem;
+        gap: 1rem;
+        margin-top: 5rem;
+        align-items: center;
+    }
     .ingredient {
         gap: 1rem;
     }
-
-    .ingridentcontent2 {
-        width: 80%;
-        height: auto;
-        padding: 1.5rem;
-    }
-    .ingridentcontent1 {
-        text-align: center;
-        
-    }
-}
-
-@media (max-width: 480px) {
     .ingridentcontent2 {
         width: 100%;
+        height: auto;
+        padding: 1rem;
     }
-
     .ingridentcontent1 {
         text-align: center;
-        
+        gap: 1rem;
+    }
+    .ingridentcontent1 p {
+        font-size: 0.9rem;
     }
 }

@@ -22,3 +22,8 @@ export const infoimg3 = require('./infoimg3.png')
 export const infoimg4 = require('./infoimg4.png')
 export const infoimg5 = require('./infoimg5.png')
 export const infoimg6 = require('./infoimg6.png')
+
+export const elbirth = require('./elbrit.png')
+export const phoneimage = require('./phoneimg.png')
+export const locationimage = require('./locationimg.png')
+export const emailimage = require('./emailimg.png')

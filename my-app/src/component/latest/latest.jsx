@@ -16,39 +16,33 @@ const Latest = () => {
             <p>our blog</p>
             <h2>latest News</h2>
         </div>
-        <div className="latestbgimages">
-            <div className="latestbgimage1">
+        <div className="parent">
+            <div className="item1">
+            <p>The covid 19 Epedemic in 2023 is back</p>
+            </div>
+            <div className="item2">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-               
             </div>
-            <div className="latestbgimage2">
+            <div className="item3">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-               
             </div>
-            <div className="latestbgimage3">
+            <div className="item4">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-              
             </div>
-            <div className="latestbgimage4">
+            <div className="item5">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-              
             </div>
-            <div className="latestbgimage5">
+            <div className="item6">
+                 <p>The covid 19 Epedemic in 2023 is back</p>
+            </div>
+            <div className="item7">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-               
             </div>
-            <div className="latestbgimage6">
+            <div className="item8">
                 <p>The covid 19 Epedemic in 2023 is back</p>
-               
             </div>
-            <div className="latestbgimage7">
-               <p>The covid 19 Epedemic in 2023 is back</p>
-            </div>
-            <div className="latestbgimage8">
-               <p>The covid 19 Epedemic in 2023 is back</p>
-            </div>
-            
         </div>
+       
     </section>
   )
 }

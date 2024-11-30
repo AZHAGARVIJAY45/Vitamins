@@ -30,7 +30,7 @@
     justify-content: center;
     margin-top: -8rem;
     width: 100vw;
-    height: 50vh;
+    min-height: 50vh;
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
@@ -99,15 +99,27 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
-    .infodetail {
-      width: calc(50% - 1rem);
+  @media (max-width: 620px) {
+    #info {
+        height: 132vh;
+        margin-top: 2rem;
+        padding: 1rem;
     }
-  }
-  
-  @media (max-width: 480px) {
-    .infodetail {
-      width: 100%;
+    .infodetails {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        
     }
-  }
-  
+    .infodetail {
+        width: 90%;
+    }
+    .infodetail img {
+        width: 60px;
+        height: 60px;
+    }
+    .infodetail p {
+        font-size: 0.7rem;
+    }
+}
